@@ -1,6 +1,6 @@
 # CIS Hardening RHEL with OpenSCAP
 
-This project demonstrates how to harden a RHEL 9.5 to CIS Level 1 and 2 compliance using OpenSCAP and the SCAP Security Guide (SSG). It covers scanning, generating compliance reports, and applying automated remediation scripts. The repository includes sample commands, remediation workflows, and guidance for verifying compliance after hardening.
+This project demonstrates how to harden RHEL 9 to CIS Level 1 and 2 compliance using OpenSCAP and the SCAP Security Guide (SSG). It covers scanning, generating compliance reports, and applying automated remediation scripts. The repository includes sample commands, remediation workflows, and guidance for verifying compliance after hardening.
 
 Key highlights:
 
