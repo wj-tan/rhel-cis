@@ -52,6 +52,13 @@
    sudo oscap xccdf generate fix --fix-type bash --output CIS_L2_remediate.sh --result-id "" cis-l2-scan-results-before.xml
    ```
 
+4. Run remediation ansible playbook or remediation bash script
+
+5. Run a scan again to generate new report
+   ```bash
+   sudo oscap xccdf eval --profile xccdf_org.ssgproject.content_profile_cis --results /root/cis-l2-scan-results-after.xml --report /root/cis-l2-report-after.html /usr/share/xml/scap/ssg/content/ssg-rhel9-ds.xml
+   ```
+   
 Reference : https://www.redhat.com/en/blog/center-internet-security-cis-compliance-red-hat-enterprise-linux-using-openscap
 
 ### Tested On
