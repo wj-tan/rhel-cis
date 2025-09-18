@@ -53,7 +53,7 @@ Using these exact versions ensures compatibility with the provided playbooks and
    
 5. (Optional) Generate remediation ansible playbook
    ```bash
-   sudo oscap xccdf generate fix --fix-type ansible --output CIS_L1_remediate.yml --result-id "" cis-l1-scan-results-before.xml`
+   sudo oscap xccdf generate fix --fix-type ansible --output CIS_L1_remediate.yml --result-id "" cis-l1-scan-results-before.xml
    ```
     
 6. Generate remediation bash script
