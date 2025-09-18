@@ -1,4 +1,4 @@
-# Experiment done on RHEL 9.6
+# Experiment done on RHEL 8.10
 
 ## Partition during RHEL installation
 
@@ -28,3 +28,4 @@ Ansible Core 2.16.3
 Community General 11.3.0
 
 Posix 2.1.0
+
