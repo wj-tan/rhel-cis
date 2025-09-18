@@ -94,4 +94,10 @@ Using these exact versions ensures compatibility with the provided playbooks and
    
 Reference : https://www.redhat.com/en/blog/center-internet-security-cis-compliance-red-hat-enterprise-linux-using-openscap
 
+### Additional useful OSCAP commands
+
+Checking for available profiles
+```bash
+oscap info /usr/share/xml/scap/ssg/content/ssg-rhel9-ds.xml
+```
 
