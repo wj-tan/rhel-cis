@@ -77,12 +77,12 @@ Using these exact versions ensures compatibility with the provided playbooks and
    
 2. (Optional) Generate remediation ansible playbook
    ```bash
-   sudo oscap xccdf generate fix --fix-type ansible --output CIS_L2_remediate.yml --result-id "" cis-l2-scan-results-before.xml
+   sudo oscap xccdf generate fix --fix-type ansible --output CIS_L2_remediate.yml --result-id "" /root/cis-l2-scan-results-before.xml
    ```
    
 3. Generate remediation bash script
    ```bash
-   sudo oscap xccdf generate fix --fix-type bash --output CIS_L2_remediate.sh --result-id "" cis-l2-scan-results-before.xml
+   sudo oscap xccdf generate fix --fix-type bash --output CIS_L2_remediate.sh --result-id "" /root/cis-l2-scan-results-before.xml
    ```
 
 4. Run remediation ansible playbook or remediation bash script
