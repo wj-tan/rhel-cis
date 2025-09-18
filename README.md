@@ -35,8 +35,25 @@
    sudo oscap xccdf eval --profile xccdf_org.ssgproject.content_profile_cis_server_l1 --results /root/cis-l1-scan-results-after.xml --report /root/cis-l1-report-after.html /usr/share/xml/scap/ssg/content/ssg-rhel9-ds.xml
    ```
 
+### L2 Server
+
+1. Run a CIS Level 2 Server scan with OSCAP
+   ```bash
+   sudo oscap xccdf eval --profile xccdf_org.ssgproject.content_profile_cis --results /root/cis-l2-scan-results-before.xml --report /root/cis-l2-report-before.html /usr/share/xml/scap/ssg/content/ssg-rhel9-ds.xml
+   ```
+   
+2. Generate remediation ansible playbook
+   ```bash
+   sudo oscap xccdf generate fix --fix-type ansible --output CIS_L2_remediate.yml --result-id "" cis-l2-scan-results-before.xml
+   ```
+   
+3. Generate remediation bash script
+   ```bash
+   sudo oscap xccdf generate fix --fix-type bash --output CIS_L2_remediate.sh --result-id "" cis-l2-scan-results-before.xml
+   ```
+
 Reference : https://www.redhat.com/en/blog/center-internet-security-cis-compliance-red-hat-enterprise-linux-using-openscap
 
 ### Tested On
 
-1. Rhel 9.6
+Rhel 9.6
