@@ -4,19 +4,19 @@
 
 /boot/efi       600M   vfat    (EFI System Partition)
 
-/boot           1G     xfs
+/boot           2G     xfs
 
 /               20G    xfs
 
-swap            4G     swap
+swap            2G     swap
 
-/home           10G    xfs
+/home           5G    xfs
 
-/var            10G    xfs
+/var            5G    xfs
 
-/var/log        8G     xfs
+/var/log        10G     xfs
 
-/var/log/audit  4G     xfs
+/var/log/audit  5G     xfs
 
 /tmp            4G     xfs
 
