@@ -6,11 +6,11 @@ Key highlights:
 
 - Install and configure oscap and scap-security-guide
 
-- Run CIS Level 1 Workstation compliance scans
+- Run CIS Level 1 and 2 Server compliance scans
 
 - Generate HTML compliance reports for auditing
 
-- Create and apply Bash remediation scripts
+- Create and apply Ansible/Bash remediation scripts
 
 - Re-scan system to validate compliance
 
