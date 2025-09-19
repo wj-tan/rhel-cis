@@ -70,6 +70,14 @@ Using these exact versions ensures compatibility with the provided playbooks and
    ```
 
 7. Run remediation bash script or ansible playbook
+   ```bash
+   sudo ./CIS_L1_remediate.sh
+   ```
+   OR
+   
+   ```bash
+   ansible-playbook -i "localhost," -c local CIS_L1_remediate.yml
+   ```
    
 8. Run a scan again to generate new report
    ```bash
@@ -94,6 +102,14 @@ Using these exact versions ensures compatibility with the provided playbooks and
    ```
 
 4. Run remediation ansible playbook or remediation bash script
+   ```bash
+   sudo ./CIS_L1_remediate.sh
+   ```
+   OR
+   
+   ```bash
+   ansible-playbook -i "localhost," -c local CIS_L1_remediate.yml
+   ```
 
 5. Run a scan again to generate new report
    ```bash
